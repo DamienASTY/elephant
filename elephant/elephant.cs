@@ -14,11 +14,7 @@ namespace elephant
             this._tailleOreille = tailleOreille;
         }
 
-        public uint tailleOreil()
-        {
-            return this._tailleOreille;
-        }
-
+       
         public string attr()
         {
             return $"nom : ${this._nom}; tailleOreille : ${this._tailleOreille}";
